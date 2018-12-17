@@ -1,0 +1,91 @@
+/* RESPONSIVE CSS */
+
+@media only screen and (max-width: 1225px) {
+	
+	/* HERO */
+	
+	.hero {
+		height: 400px;
+	}
+	
+		.hero h1 {
+			padding: 15px 0;
+			font-size: 40px;
+			line-height: 40px;
+		}
+	
+		.hero h1::before {
+			display: block;
+			content: "Bitchin'";
+			font: bold 50px/50px Arial;
+			color: #ff0000;
+		}
+	
+} /* End 1225 */
+
+
+@media only screen and (max-width: 1024px) {
+	
+	/* HERO */
+	
+	.hero h1::before {
+		display: none;
+	}
+	
+} /* End 1024 */
+
+
+
+@media only screen and (max-width: 700px) {
+	
+	/* HERO */
+	
+	.hero {
+		height: 300px;
+		background-position: top center;
+	}
+	
+		.hero h1 {
+			font-size: 32px/32px;
+			line-height: 40px;
+		}
+	
+} /* End 700 */
+
+
+
+@media only screen and (max-width: 600px) {
+	
+	/* HERO */
+	
+	.hero {
+		height: 250px;
+		background-position: top center;
+	}
+	
+		.hero h1 {
+			padding: 10px 0;
+			font-size: 28px;
+			line-height: 28px;
+		}
+	
+} /* End 600 */
+
+
+
+@media only screen and (max-width: 415px) {
+	
+	/* HERO */
+	
+	.hero {
+		height: 230px;
+		background-position: top center;
+	}
+	
+		.hero h1 {
+			padding: 10px 0;
+			font-size: 24px;
+			line-height: 28px;
+		}
+	
+} /* End 415 */

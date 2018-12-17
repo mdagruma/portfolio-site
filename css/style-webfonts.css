@@ -1,0 +1,143 @@
+/* SITE FONTS */
+	
+	/* MONTSERRAT */
+
+	@font-face {
+		font-family: 'Montserrat Light';
+		src: url('../fonts/montserrat-light-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-light-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-light-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Montserrat Light Italic';
+		src: url('../fonts/montserrat-lightitalic-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-lightitalic-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-lightitalic-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Montserrat';
+		src: url('../fonts/montserrat-regular-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-regular-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-regular-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Montserrat Italic';
+		src: url('../fonts/montserrat-italic-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-italic-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-italic-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Montserrat Medium';
+		src: url('../fonts/montserrat-medium-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-medium-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-medium-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Montserrat Medium Italic';
+		src: url('../fonts/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-mediumitalic-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-mediumitalic-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	@font-face {
+		font-family: 'Montserrat Bold';
+		src: url('../fonts/montserrat-bold-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-bold-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-bold-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+	
+	@font-face {
+		font-family: 'Montserrat Bold Italic';
+		src: url('../fonts/montserrat-bolditalic-webfont.woff2') format('woff2'),
+			 url('../fonts/montserrat-bolditalic-webfont.woff') format('woff'),
+			 url('../fonts/montserrat-bolditalic-webfont.ttf') format('truetype');
+		font-weight: normal;
+		font-style: normal;
+	}
+
+	
+	
+	/* ICON FONT */
+	
+	@font-face {
+	  	font-family: 'Kohler Coating';
+	  	src: url('../fonts/kohler-coating.eot');
+	  	src: url('../fonts/kohler-coating.svg#kohler-coating') format('svg'),
+		     url('../fonts/kohler-coating.woff') format('woff'),
+		     url('../fonts/kohler-coating.ttf') format('truetype');
+	  	font-weight: normal;
+	  	font-style: normal;
+	}
+
+	[data-icon]:before {
+	  	font-family: 'Kohler Coating' !important;
+	  	content: attr(data-icon);
+	  	font-style: normal !important;
+	  	font-weight: normal !important;
+	  	font-variant: normal !important;
+	  	text-transform: none !important;
+	  	speak: none;
+	  	line-height: 1;
+	  	-webkit-font-smoothing: antialiased;
+	  	-moz-osx-font-smoothing: grayscale;
+	}
+
+	[class^="icon-"]:before,
+	[class*=" icon-"]:before {
+	  	font-family: 'Kohler Coating' !important;
+	  	font-style: normal !important;
+	  	font-weight: normal !important;
+	  	font-variant: normal !important;
+	  	text-transform: none !important;
+	  	speak: none;
+	  	line-height: 1;
+	  	-webkit-font-smoothing: antialiased;
+	  	-moz-osx-font-smoothing: grayscale;
+	}
+	
+	.icon {
+		display: inline-block;
+		font: normal normal normal 14px/1 "Kohler Coating";
+		font-size: inherit;
+	}
+	
+	.icon-accordion-close:before {
+	  content: "c";
+	}
+
+	.icon-accordion-open:before {
+	  content: "o";
+	}
+
+	.icon-linkedin:before {
+	  content: "i";
+	}
+
+	.icon-search:before {
+	  content: "s";
+	}
+
+	.icon-youtube:before {
+	  content: "y";
+	}
+	
+	
